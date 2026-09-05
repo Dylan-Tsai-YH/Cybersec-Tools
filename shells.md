@@ -1,5 +1,9 @@
 # Shells
 
+## Revshells - Useful website
+Gets you a whole bunch of reverse shells
+[revshells](https://www.revshells.com/)
+
 ## Spawn a TTY
 Upgrade a basic shell to a Bash pseudo-terminal.
 ```bash
