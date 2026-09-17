@@ -1,1 +1,12 @@
 AGENTS.md
+pentest-orchestrator/__pycache__/
+pentest-orchestrator/*.py[cod]
+pentest-orchestrator/.coverage
+pentest-orchestrator/.pytest_cache/
+pentest-rchestrator/.venv/
+pentest-orchestrator/build/
+pentest-orchestrator/dist/
+pentest-orchestrator/*.egg-info/
+pentest-orchestrator/runs/
+pentest-orchestrator/.codex/context/
+pentest-orchestrator/AGENTS.md
